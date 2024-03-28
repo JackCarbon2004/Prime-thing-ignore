@@ -59,9 +59,7 @@ def pollards_rho(n):
         d = gcd(abs(x-y), n)
     return d
 
-# ------------------------------
-# MARKED AREA: ENTER YOUR NUMBER
-# ------------------------------
+
 number_to_test = (2**2018) + 1
 
 # Testing for primality and attempting to find a factor if composite
